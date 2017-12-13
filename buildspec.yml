@@ -8,4 +8,4 @@ artifacts:
     - index.html
     - favicon.ico
     - styles/*
-    -images/* 
+    - images/* 
