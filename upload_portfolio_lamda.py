@@ -7,7 +7,7 @@ def lambda_handler(event, context):
 	sns = boto3.resource('sns')
 	topic = sns.Topic('arn:aws:sns:us-east-1:384512602151:deployPortfolioTopic')
 
-	location{
+	location = {
 		"bucketName": 'portfoliobuild.despenny.rocks',
 		"objectKey": 'portfoliobuild.zip'
 	}
