@@ -18,7 +18,9 @@ def lambda_handler(event, context):
 			for artifact in  job["data"]["inputArtifacts"]:
 				if artifact["name"] == "MyAppBuild":
 					location = artifact["location"]["s3Location"]
+
 		print "Building Portfolio from "+ str(location)
+		
 	    s3 = boto3.resource('s3', config=Config(signature_version-'s3v4'))
 
 	    portfolio_bucket = s3.Bucket('portfolio.despenny.rocks')
