@@ -1,7 +1,6 @@
 import React from 'react';
-import { shallow, mount, render } from 'enzyme';
+import { configure, shallow, mount, render } from 'enzyme';
 import ExampleWorkModal from '../js/example-work-modal';
-import { configure } from 'enzyme';
 
 import Adapter from 'enzyme-adapter-react-16';
 

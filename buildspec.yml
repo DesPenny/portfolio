@@ -3,7 +3,7 @@ phases:
   pre_build:
     commands:
       - npm install
-      - npm test
+      
   build:
     commands:
       - npm run webpack
@@ -12,5 +12,5 @@ artifacts:
     - index.html
     - favicon.ico
     - styles/*
-    - images/* 
+    - images/*
     - dist/bundle.js

@@ -1,7 +1,6 @@
 import React from 'react';
-import { shallow, mount, render } from 'enzyme';
+import { configure, shallow, mount, render } from 'enzyme';
 import ExampleWork, { ExampleWorkBubble } from '../js/example-work';
-import { configure } from 'enzyme';
 
 import Adapter from 'enzyme-adapter-react-16';
 
