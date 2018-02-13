@@ -2,7 +2,7 @@ import React from 'react';
 import { configure, shallow, mount, render } from 'enzyme';
 import ExampleWorkModal from '../js/example-work-modal';
 
-import Adapter from 'enzyme-adapter-react-15';
+import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
 
@@ -34,7 +34,7 @@ describe("ExampleWorkModal component", () => {
 	});
 
 	it("Should have the modal class set correctly", () => {
-		expect(component.find(".background--skyBlue").hasClass("modal--closed").toBe(true));
-		expect(openComponent.find(".background--skyBlue").hasClass("modal--open").toBe(true));
+		expect(component.find(".background--skyBlue").hasClass("modal--closed")).toBe(true);
+		expect(openComponent.find(".background--skyBlue").hasClass("modal--open")).toBe(true);
 	})
 });

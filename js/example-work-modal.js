@@ -27,5 +27,6 @@ class ExampleWorkModal extends React.Component {
       </div>
     </div>
 			)
-	}
-}
+	};
+};
+export default ExampleWorkModal;
