@@ -6,7 +6,7 @@ const myWork = [
 	{
 		'title': "This Website",
 		'href': "https://despenny.rocks",
-		'desc': "Lorem ipsum yadayadayada",
+		'desc': "This website is completely serverless. It uses S3 and lambda with CodeBuild and CodePipeline. It also allowed me to play with Reactjs.",
 		'image': {
 			'desc': "screenshot of the infrastructure involved",
 			'src': "images/example1.png",
@@ -16,7 +16,7 @@ const myWork = [
 	{
 		'title': "FavourSoup",
 		'href': "https://www.favoursoup.com",
-		'desc': "Lorem ipsum yadayadayada",
+		'desc': "FavourSoup is my pet project built in python/flask and it allows people to exchange favours with eachother.",
 		'image': {
 			'desc': "screenshot of favoursoup",
 			'src': "images/example2.png",
@@ -26,7 +26,7 @@ const myWork = [
 	{
 		'title': "IAC",
 		'href': "https://despenny.rocks",
-		'desc': "Lorem ipsum yadayadayada",
+		'desc': "As part of my current position, I'm using terraform and ansible to help migrate from linode to aws and keep the Infrastructure as Code.",
 		'image': {
 			'desc': "screenshot of ansible and terraform",
 			'src': "images/example3.png",
