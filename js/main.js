@@ -4,34 +4,33 @@ import ExampleWork from './example-work';
 
 const myWork = [
 	{
-		'title': "Work Example",
+		'title': "This Website",
 		'href': "https://despenny.rocks",
 		'desc': "Lorem ipsum yadayadayada",
 		'image': {
-			'desc': "example screenshot of a project involving code",
+			'desc': "screenshot of the infrastructure involved",
 			'src': "images/example1.png",
 			'comment': ""
 		}
 	},
 	{
-		'title': "Work Example",
-		'href': "https://despenny.rocks",
+		'title': "FavourSoup",
+		'href': "https://www.favoursoup.com",
 		'desc': "Lorem ipsum yadayadayada",
 		'image': {
-			'desc': "example screenshot of a project involving chemistry",
+			'desc': "screenshot of favoursoup",
 			'src': "images/example2.png",
 			'comment': ""
 		}
 	},
 	{
-		'title': "Work Example",
+		'title': "IAC",
 		'href': "https://despenny.rocks",
 		'desc': "Lorem ipsum yadayadayada",
 		'image': {
-			'desc': "example screenshot of a project involving cats",
+			'desc': "screenshot of ansible and terraform",
 			'src': "images/example3.png",
-			'comment': `“Bengal cat” by roberto shabs is licensed under CC BY 2.0
-               https://www.flickr.com/photos/37287295@N00/2540855181`
+			'comment': ""
 		}
 	}
 ]
