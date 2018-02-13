@@ -1,5 +1,6 @@
 import React from 'react';
 import ExampleWorkModal from './example-work-modal';
+
 class ExampleWork extends React.Component {
 	constructor(props) {
 		super(props);
@@ -52,7 +53,7 @@ class ExampleWork extends React.Component {
 class ExampleWorkBubble extends React.Component {
 	render() {
 		let example = this.props.example;
-		return(
+		return (
 			<div className="section__exampleWrapper"
 			onClick={ (evt) => this.props.openModal(evt, example) }>
 		        <div className="section__example">

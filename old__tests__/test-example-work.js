@@ -2,7 +2,7 @@ import React from 'react';
 import { configure, shallow, mount, render } from 'enzyme';
 import ExampleWork, { ExampleWorkBubble } from '../js/example-work';
 
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from 'enzyme-adapter-react-15';
 
 configure({ adapter: new Adapter() });
 
@@ -59,7 +59,7 @@ describe("ExampleWorkBubble component", () => {
 	});
 
 	it("Should have the image src set correctly", () => {
-		expect(images.node.props.src).toEqual(myWork[1].image.src);
+		expect(images.getElement.props.src).toEqual(myWork[1].image.src);
 	});
 
 	it("Should call the openModal handler when clicked", () => {

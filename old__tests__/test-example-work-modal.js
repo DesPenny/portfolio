@@ -2,7 +2,7 @@ import React from 'react';
 import { configure, shallow, mount, render } from 'enzyme';
 import ExampleWorkModal from '../js/example-work-modal';
 
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from 'enzyme-adapter-react-15';
 
 configure({ adapter: new Adapter() });
 
@@ -30,7 +30,7 @@ describe("ExampleWorkModal component", () => {
 	});
 
 	it("Should link to our project", () => {
-		expect(anchors.node.props.href).toEqual(myExample.href);
+		expect(anchors.getElement().props.href).toEqual(myExample.href);
 	});
 
 	it("Should have the modal class set correctly", () => {
